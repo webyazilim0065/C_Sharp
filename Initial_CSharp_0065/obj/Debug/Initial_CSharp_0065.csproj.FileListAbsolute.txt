@@ -1,0 +1,7 @@
+C:\Users\302-PC\Source\Repos\C_Sharp\Initial_CSharp_0065\bin\Debug\Initial_CSharp_0065.exe.config
+C:\Users\302-PC\Source\Repos\C_Sharp\Initial_CSharp_0065\bin\Debug\Initial_CSharp_0065.exe
+C:\Users\302-PC\Source\Repos\C_Sharp\Initial_CSharp_0065\bin\Debug\Initial_CSharp_0065.pdb
+C:\Users\302-PC\Source\Repos\C_Sharp\Initial_CSharp_0065\obj\Debug\Initial_CSharp_0065.csproj.AssemblyReference.cache
+C:\Users\302-PC\Source\Repos\C_Sharp\Initial_CSharp_0065\obj\Debug\Initial_CSharp_0065.csproj.CoreCompileInputs.cache
+C:\Users\302-PC\Source\Repos\C_Sharp\Initial_CSharp_0065\obj\Debug\Initial_CSharp_0065.exe
+C:\Users\302-PC\Source\Repos\C_Sharp\Initial_CSharp_0065\obj\Debug\Initial_CSharp_0065.pdb
