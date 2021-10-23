@@ -82,6 +82,10 @@ namespace CSharp_Diziler
 
             Console.WriteLine($"En büyük sayı = {enBuyuk}, En küçük sayı = {enKucuk}");
             #endregion
+
+            #region Sorting
+
+            #endregion
         }
     }
 }
