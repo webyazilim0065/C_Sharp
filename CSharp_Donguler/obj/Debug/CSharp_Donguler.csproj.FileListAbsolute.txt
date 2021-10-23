@@ -1,0 +1,7 @@
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Donguler\bin\Debug\CSharp_Donguler.exe.config
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Donguler\bin\Debug\CSharp_Donguler.exe
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Donguler\bin\Debug\CSharp_Donguler.pdb
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Donguler\obj\Debug\CSharp_Donguler.csproj.CoreCompileInputs.cache
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Donguler\obj\Debug\CSharp_Donguler.exe
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Donguler\obj\Debug\CSharp_Donguler.pdb
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Donguler\obj\Debug\CSharp_Donguler.csproj.AssemblyReference.cache

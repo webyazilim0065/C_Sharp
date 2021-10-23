@@ -1,0 +1,7 @@
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Conditions\bin\Debug\CSharp_Conditions.exe.config
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Conditions\bin\Debug\CSharp_Conditions.exe
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Conditions\bin\Debug\CSharp_Conditions.pdb
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Conditions\obj\Debug\CSharp_Conditions.csprojAssemblyReference.cache
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Conditions\obj\Debug\CSharp_Conditions.csproj.CoreCompileInputs.cache
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Conditions\obj\Debug\CSharp_Conditions.exe
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Conditions\obj\Debug\CSharp_Conditions.pdb

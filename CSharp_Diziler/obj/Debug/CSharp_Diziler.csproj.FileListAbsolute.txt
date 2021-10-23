@@ -1,0 +1,7 @@
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Diziler\bin\Debug\CSharp_Diziler.exe.config
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Diziler\bin\Debug\CSharp_Diziler.exe
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Diziler\bin\Debug\CSharp_Diziler.pdb
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Diziler\obj\Debug\CSharp_Diziler.csproj.AssemblyReference.cache
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Diziler\obj\Debug\CSharp_Diziler.csproj.CoreCompileInputs.cache
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Diziler\obj\Debug\CSharp_Diziler.exe
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Diziler\obj\Debug\CSharp_Diziler.pdb

@@ -1,0 +1,7 @@
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Operatorler\bin\Debug\CSharp_Operatorler.exe.config
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Operatorler\bin\Debug\CSharp_Operatorler.exe
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Operatorler\bin\Debug\CSharp_Operatorler.pdb
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Operatorler\obj\Debug\CSharp_Operatorler.csproj.CoreCompileInputs.cache
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Operatorler\obj\Debug\CSharp_Operatorler.exe
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Operatorler\obj\Debug\CSharp_Operatorler.pdb
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_Operatorler\obj\Debug\CSharp_Operatorler.csprojAssemblyReference.cache

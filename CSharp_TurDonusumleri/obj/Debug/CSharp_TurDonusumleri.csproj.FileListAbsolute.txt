@@ -1,0 +1,7 @@
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_TurDonusumleri\bin\Debug\CSharp_TurDonusumleri.exe.config
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_TurDonusumleri\bin\Debug\CSharp_TurDonusumleri.exe
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_TurDonusumleri\bin\Debug\CSharp_TurDonusumleri.pdb
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_TurDonusumleri\obj\Debug\CSharp_TurDonusumleri.csprojAssemblyReference.cache
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_TurDonusumleri\obj\Debug\CSharp_TurDonusumleri.csproj.CoreCompileInputs.cache
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_TurDonusumleri\obj\Debug\CSharp_TurDonusumleri.exe
+C:\Users\302-PC\source\repos\Initial_CSharp_0065\CSharp_TurDonusumleri\obj\Debug\CSharp_TurDonusumleri.pdb
