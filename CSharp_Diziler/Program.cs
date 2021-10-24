@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -109,15 +110,92 @@ namespace CSharp_Diziler
 
             #region Diziler 2
             //string değerler aynı zamanda bir char array idir.
-            string stringArray = "CSharp Diziler konusuna hoşgeldiniz";
-            for (int i = 0; i < stringArray.Length; i++)
-            {
-                var ch = stringArray[i];
-                Console.WriteLine(ch);
-            }
+            //string stringArray = "CSharp Diziler konusuna hoşgeldiniz";
+            //for (int i = 0; i < stringArray.Length; i++)
+            //{
+            //    var ch = stringArray[i];
+            //    Console.WriteLine(ch);
+            //}
 
             //Uygulama
             //kullanıcıdan bir cümle alacaksınız. girilen cümle içinde sizin kendi belirlediğiniz harften kaç adet girilmiş ise onu ekrana yazdıracaksınız.
+            #endregion
+
+            #region Collection
+            // Uzuuuun yöntem
+            //int[] girilenSayilar = new int[0];
+            //int[] tempSayilar = new int[0];
+            //int index = 0;
+            //for (; ;)
+            //{
+            //    Console.WriteLine("Sayı giriniz");
+            //    int sayi = Convert.ToInt32(Console.ReadLine());
+            //    for (int i = 0; i < tempSayilar.Length; i++)
+            //    {
+            //        girilenSayilar[i] = tempSayilar[i];
+            //    }  
+            //    if(sayi < 0)
+            //    {
+            //        break;
+            //    }
+            //    tempSayilar = girilenSayilar;
+            //    girilenSayilar = new int[girilenSayilar.Length + 1];
+            //    girilenSayilar[index] = sayi;
+            //    index++;
+            //}
+
+            //Collections
+            //Tip güvenliğini sağlamazlar
+            //Birden fazla tipte değer alabilir.
+            //ArrayList girilenSayilar = new ArrayList();
+            //for(; ; )
+            //{
+            //    Console.WriteLine("Sayı giriniz");
+            //    int sayi = Convert.ToInt32(Console.ReadLine());
+            //    if (sayi < 0) break;
+            //    girilenSayilar.Add(sayi);
+            //}
+            //girilenSayilar.Add("Test");
+            //girilenSayilar.Remove("Test");
+
+            //Generic Collections
+            //Tipe bağlı koleksiyon
+            //List<string> girilenSayilar = new List<string>();
+            //for (; ; )
+            //{
+            //    Console.WriteLine("Sayı giriniz");
+            //    int sayi = Convert.ToInt32(Console.ReadLine());
+            //    if (sayi < 0) break;
+            //    girilenSayilar.Add(sayi.ToString());
+            //}
+
+            // Cümleyi tersten yazdırma
+            //Console.WriteLine("Cümle giriniz");
+            //string cumle = Console.ReadLine();
+            //for (int i = cumle.Length - 1; i >= 0 ; i++)
+            //{
+            //    Console.Write("Test");
+            //}
+            //Console.WriteLine();
+
+
+            #endregion
+
+            #region Foreach
+            List<int> sayilar = new List<int>() { 1, 2, 3, 5, 6, 9 };
+            foreach(int item in sayilar)
+            {
+                Console.WriteLine(item);
+            }
+            #endregion
+
+            #region Random
+            Random random = new Random();
+            int value = random.Next(0, 100);
+            int[] sayilarDizi = new int[] { 1, 2, 3 };
+            if (sayilarDizi.Contains(2)) { 
+                //2 değeri dizide vardır
+            }
             #endregion
         }
     }
