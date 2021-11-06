@@ -1,0 +1,7 @@
+C:\Users\302-PC\Source\Repos\C_Sharp\CSharp_Methods\bin\Debug\CSharp_Methods.exe.config
+C:\Users\302-PC\Source\Repos\C_Sharp\CSharp_Methods\bin\Debug\CSharp_Methods.exe
+C:\Users\302-PC\Source\Repos\C_Sharp\CSharp_Methods\bin\Debug\CSharp_Methods.pdb
+C:\Users\302-PC\Source\Repos\C_Sharp\CSharp_Methods\obj\Debug\CSharp_Methods.csproj.AssemblyReference.cache
+C:\Users\302-PC\Source\Repos\C_Sharp\CSharp_Methods\obj\Debug\CSharp_Methods.csproj.CoreCompileInputs.cache
+C:\Users\302-PC\Source\Repos\C_Sharp\CSharp_Methods\obj\Debug\CSharp_Methods.exe
+C:\Users\302-PC\Source\Repos\C_Sharp\CSharp_Methods\obj\Debug\CSharp_Methods.pdb

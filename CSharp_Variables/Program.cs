@@ -38,6 +38,7 @@ namespace CSharp_Variables
             bool bool_deger = true;
 
             var variable_something = true;
+            var variableSomething = "test";
 
             initial = "Something variable";
             Console.WriteLine(initial);
