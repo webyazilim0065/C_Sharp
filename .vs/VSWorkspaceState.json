@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CSharp_Diziler"
   ],
-  "SelectedNode": "\\Initial_CSharp_0065.sln",
+  "SelectedNode": "\\CSharp_Diziler\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
