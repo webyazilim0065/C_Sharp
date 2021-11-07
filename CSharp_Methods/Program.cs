@@ -123,6 +123,13 @@ namespace CSharp_Methods
             int toplam = Topla(1, 6);
             Console.WriteLine(toplam);
             #endregion
+
+            //Uygulama
+            //Char ve int tipinde 2 değer alan ve değerlerden büyük olanı geriye döndüren metod.
+            //2 adet liste alıp bu listelerden eleman sayısının küçük olanını geriye getiren bir metod.
+            //1 Liste alıp liste içerisinde çift sayıların toplamını geriye döndüren bir metod.
+            //1 Liste içerisinde ki asal sayıları ekrana yazdıran bir metod.
+            //3 adet int tipte parametre alıp bu değerleri büyükten küçüğe doğru sıralayıp bir liste halinde geriye değer döndüren metod.
         }
 
         public static void WriteToUpperOrToLower(char character)
