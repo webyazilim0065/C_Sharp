@@ -120,16 +120,126 @@ namespace CSharp_Methods
             Console.WriteLine(result);
             #endregion
             #region Metodlar - Parametreli geriye değer döndüren static metodlar
-            int toplam = Topla(1, 6);
-            Console.WriteLine(toplam);
+            //int toplam = Topla(1, 6);
+            //Console.WriteLine(toplam);
+            #endregion
+            #region Uygulama - 3
+            //Uygulama
+            //Char ve int tipinde 2 değer alan ve değerlerden büyük olanı geriye döndüren metod.
+            //int maxValue = CompareCharAndInt('A', 90);
+            //Console.WriteLine(maxValue);
+            ////2 adet liste alıp bu listelerden eleman sayısının küçük olanını geriye getiren bir metod.
+            //var response = CompareListByCount(new List<string>() { "Esk", "Ank", "Bur" }, new List<string>() { "Ist", "Ant" });
+            //foreach (var item in response)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            ////1 Liste alıp liste içerisinde çift sayıların toplamını geriye döndüren bir metod.
+            //var sum = CalculateSumOfEvenNumbersOfList(new List<int>() { 2, 4, 6, 8, 9, 99, 97, 71 });
+            //Console.WriteLine(sum);
+            ////1 Liste içerisinde ki asal sayıları ekrana yazdıran bir metod.
+            //WritePrimeNumberInList(new List<int>() { 1, 2, 3, 6, 39, 7, 99, 67, 91, 71, 23 });
+            ////3 adet int tipte parametre alıp bu değerleri büyükten küçüğe doğru sıralayıp bir liste halinde geriye değer döndüren metod.
+            //var sortedList = SortToList(2, 36, 34, 1, 96, 77, 45);
+            #endregion
+
+
+            #region Static olmayan metodlar
+            Program ali = new Program(); // nesne(instance) oluşturulur.
+            ali.WriteHello();
+
             #endregion
 
             //Uygulama
-            //Char ve int tipinde 2 değer alan ve değerlerden büyük olanı geriye döndüren metod.
-            //2 adet liste alıp bu listelerden eleman sayısının küçük olanını geriye getiren bir metod.
-            //1 Liste alıp liste içerisinde çift sayıların toplamını geriye döndüren bir metod.
-            //1 Liste içerisinde ki asal sayıları ekrana yazdıran bir metod.
-            //3 adet int tipte parametre alıp bu değerleri büyükten küçüğe doğru sıralayıp bir liste halinde geriye değer döndüren metod.
+            //2 Adet listeyi tek liste halinde geriye döndüren static olmayan metodu tanımlayınız.
+            //Bir Liste içerisinde ki sayıları, yine gönderilen bir sayı ile çarparak elemanları değiştiren metodu yazınız.
+            //Bir cümleyi tersten yazdıran metodu tanımlayınız.
+        }
+
+        public void WriteHello()
+        {
+            Console.WriteLine("Hello");
+        }
+
+        public static List<int> SortToList(params int[] numbers)
+        {
+            var list = numbers.ToList();
+            for (int i = 0; i < list.Count; i++)
+            {
+                for (int j = 1; j < list.Count; j++)
+                {
+                    if (list[j] > list[j - 1])
+                    {
+                        int temp = list[j - 1];
+                        list[j - 1] = list[j];
+                        list[j] = temp;
+                    }
+                }
+            }
+            return list;
+        }
+
+        public static int CalculateSumOfEvenNumbersOfList(List<int> numbers)
+        {
+            int toplam = 0;
+            foreach (var item in numbers)
+            {
+                if (item % 2 == 0)
+                {
+                    toplam = toplam + item;
+                    //toplam+=item;
+                }
+            }
+            return toplam;
+        }
+
+        public static void WritePrimeNumberInList(List<int> numbers)
+        {
+            foreach (var item in numbers)
+            {
+                bool isPrime = true;
+                for (int i = 2; i < item; i++)
+                {
+                    if (item % i == 0)
+                    {
+                        isPrime = false;
+                        break;
+                    }
+                }
+                if (isPrime && item > 1)
+                {
+                    Console.WriteLine(item);
+                }
+            }
+        }
+
+        public static List<string> CompareListByCount(List<string> list1, List<string> list2)
+        {
+            var result = list1;
+            if (list2.Count < list1.Count)
+            {
+                result = list2;
+            }
+            return result;
+        }
+
+        public static int CompareCharAndInt(char character, int number)
+        {
+            int result = number;
+            if (character > number)
+            {
+                result = character;
+            }
+            return result;
+            //if(character > number)
+            //{
+            //    return character;
+            //}
+            //else
+            //{
+            //    return number;
+            //}
         }
 
         public static void WriteToUpperOrToLower(char character)
@@ -174,7 +284,7 @@ namespace CSharp_Methods
         //{
         //    Console.WriteLine(sayi1 + sayi2);
         //}
-        public static int Topla(int sayi1,int sayi2)
+        public static int Topla(int sayi1, int sayi2)
         {
             int toplam = sayi1 + sayi2;
             return toplam;
