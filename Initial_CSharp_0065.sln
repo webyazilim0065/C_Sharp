@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_Diziler", "CSharp_Di
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_Methods", "CSharp_Methods\CSharp_Methods.csproj", "{34E4A9B4-B914-4DC6-8898-58102E264399}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_Classes", "CSharp_Classes\CSharp_Classes.csproj", "{DCD214E0-7D0A-4260-A135-0F1DF9592ACB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{34E4A9B4-B914-4DC6-8898-58102E264399}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34E4A9B4-B914-4DC6-8898-58102E264399}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34E4A9B4-B914-4DC6-8898-58102E264399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCD214E0-7D0A-4260-A135-0F1DF9592ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD214E0-7D0A-4260-A135-0F1DF9592ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD214E0-7D0A-4260-A135-0F1DF9592ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD214E0-7D0A-4260-A135-0F1DF9592ACB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

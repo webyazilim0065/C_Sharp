@@ -143,11 +143,12 @@ namespace CSharp_Methods
             ////3 adet int tipte parametre alıp bu değerleri büyükten küçüğe doğru sıralayıp bir liste halinde geriye değer döndüren metod.
             //var sortedList = SortToList(2, 36, 34, 1, 96, 77, 45);
             #endregion
-
-
             #region Static olmayan metodlar
             Program ali = new Program(); // nesne(instance) oluşturulur.
             ali.WriteHello();
+            ali.WriteHello("Test");
+            ali.WriteHello("Test","Test");
+            ali.WriteHello("Test","10");
 
             #endregion
 
@@ -157,9 +158,30 @@ namespace CSharp_Methods
             //Bir cümleyi tersten yazdıran metodu tanımlayınız.
         }
 
+        //Overload metodlar
         public void WriteHello()
         {
             Console.WriteLine("Hello");
+        }
+
+        public void WriteHello(string name)
+        {
+            Console.WriteLine($"Hello {name}");
+        }
+
+        public void WriteHello(string name,string surname)
+        {
+            Console.WriteLine($"Hello {name} {surname}");
+        }
+
+        public void WriteHello(string name, int yas)
+        {
+            Console.WriteLine($"Hello {name} {yas}");
+        }
+
+        public void WriteHello(string name, double year)
+        {
+            Console.WriteLine($"Hello {name} {year}");
         }
 
         public static List<int> SortToList(params int[] numbers)
