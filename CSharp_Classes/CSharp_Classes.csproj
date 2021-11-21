@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Electronics\BeyazEsya.cs" />
+    <Compile Include="Electronics\BulasikMakinesi.cs" />
+    <Compile Include="Electronics\Buzdolabi.cs" />
+    <Compile Include="Electronics\CamasirMakinesi.cs" />
+    <Compile Include="Electronics\Elektronik.cs" />
     <Compile Include="People.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
