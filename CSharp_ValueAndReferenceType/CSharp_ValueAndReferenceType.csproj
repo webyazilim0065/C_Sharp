@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DCD214E0-7D0A-4260-A135-0F1DF9592ACB}</ProjectGuid>
+    <ProjectGuid>{F183E600-0584-4C23-B144-093952175DA0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CSharp_Classes</RootNamespace>
-    <AssemblyName>CSharp_Classes</AssemblyName>
+    <RootNamespace>CSharp_ValueAndReferenceType</RootNamespace>
+    <AssemblyName>CSharp_ValueAndReferenceType</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,16 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Animals\Aslan.cs" />
-    <Compile Include="Animals\Hayvan.cs" />
-    <Compile Include="Animals\Kartal.cs" />
-    <Compile Include="Animals\Yunus.cs" />
-    <Compile Include="Electronics\BeyazEsya.cs" />
-    <Compile Include="Electronics\BulasikMakinesi.cs" />
-    <Compile Include="Electronics\Buzdolabi.cs" />
-    <Compile Include="Electronics\CamasirMakinesi.cs" />
-    <Compile Include="Electronics\Elektronik.cs" />
-    <Compile Include="People.cs" />
+    <Compile Include="Araba.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

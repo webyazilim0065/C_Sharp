@@ -1,0 +1,7 @@
+C:\Users\302-PC\source\repos\C_Sharp\CSharp_ValueAndReferenceType\bin\Debug\CSharp_ValueAndReferenceType.exe.config
+C:\Users\302-PC\source\repos\C_Sharp\CSharp_ValueAndReferenceType\bin\Debug\CSharp_ValueAndReferenceType.exe
+C:\Users\302-PC\source\repos\C_Sharp\CSharp_ValueAndReferenceType\bin\Debug\CSharp_ValueAndReferenceType.pdb
+C:\Users\302-PC\source\repos\C_Sharp\CSharp_ValueAndReferenceType\obj\Debug\CSharp_ValueAndReferenceType.csproj.AssemblyReference.cache
+C:\Users\302-PC\source\repos\C_Sharp\CSharp_ValueAndReferenceType\obj\Debug\CSharp_ValueAndReferenceType.csproj.CoreCompileInputs.cache
+C:\Users\302-PC\source\repos\C_Sharp\CSharp_ValueAndReferenceType\obj\Debug\CSharp_ValueAndReferenceType.exe
+C:\Users\302-PC\source\repos\C_Sharp\CSharp_ValueAndReferenceType\obj\Debug\CSharp_ValueAndReferenceType.pdb

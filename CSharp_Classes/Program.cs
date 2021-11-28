@@ -1,4 +1,5 @@
-﻿using CSharp_Classes.Electronics;
+﻿using CSharp_Classes.Animals;
+using CSharp_Classes.Electronics;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -41,41 +42,99 @@ namespace CSharp_Classes
             #endregion
 
             #region Class Continue && Erişim Belirleyici
-            CamasirMakinesi camasirMakinesi = new CamasirMakinesi(1000, "A+++", "Bosch", "TR897T");
-            //camasirMakinesi = new CamasirMakinesi(2000, "A+++", "Bosch", "TR897T");
-            //camasirMakinesi.DevirSayisi = 1500;
-            camasirMakinesi.Calistir();
-            Console.WriteLine($"Çamaşır makinesi {camasirMakinesi.DevirSayisiOgren()} devir ile dönüyor");
-            //camasirMakinesi.SuAl();
-            Console.WriteLine($"Çamaşır makinesi {camasirMakinesi.DevirSayisiOgren()} devir ile dönüyor"); 
-            Console.WriteLine($"Çamaşır makinesi {camasirMakinesi.DevirSayisiOgren()} devir ile dönüyor"); 
-            Console.WriteLine($"Çamaşır makinesi {camasirMakinesi.DevirSayisiOgren()} devir ile dönüyor");
-            camasirMakinesi.Durdur();
+            //CamasirMakinesi camasirMakinesi = new CamasirMakinesi(1000, "A+++", "Bosch", "TR897T");
+            ////camasirMakinesi = new CamasirMakinesi(2000, "A+++", "Bosch", "TR897T");
+            ////camasirMakinesi.DevirSayisi = 1500;
+            //camasirMakinesi.Calistir();
+            //Console.WriteLine($"Çamaşır makinesi {camasirMakinesi.DevirSayisiOgren()} devir ile dönüyor");
+            ////camasirMakinesi.SuAl();
+            //Console.WriteLine($"Çamaşır makinesi {camasirMakinesi.DevirSayisiOgren()} devir ile dönüyor"); 
+            //Console.WriteLine($"Çamaşır makinesi {camasirMakinesi.DevirSayisiOgren()} devir ile dönüyor"); 
+            //Console.WriteLine($"Çamaşır makinesi {camasirMakinesi.DevirSayisiOgren()} devir ile dönüyor");
+            //camasirMakinesi.Durdur();
 
-            Console.WriteLine($"{camasirMakinesi.Marka} {camasirMakinesi.Model} {camasirMakinesi.EnerjiSinifi} {camasirMakinesi.GetDevirSayisi()}");
+            //Console.WriteLine($"{camasirMakinesi.Marka} {camasirMakinesi.Model} {camasirMakinesi.EnerjiSinifi} {camasirMakinesi.GetDevirSayisi()}");
 
-            BulasikMakinesi bulasikMakinesi = new BulasikMakinesi("Bosch", "TS745T", 5);
-            bulasikMakinesi.UretimNo = "TRY73226";
-            bulasikMakinesi.Cali
-            bulasikMakinesi.Calistir();
-            //bulasikMakinesi.ProgramSayisi = 6;
-            Console.WriteLine($"{bulasikMakinesi.Marka} {bulasikMakinesi.Model} {bulasikMakinesi.ProgramSayisi} {bulasikMakinesi.BarkodNo} {bulasikMakinesi.UretimNo}");
+            //BulasikMakinesi bulasikMakinesi = new BulasikMakinesi("Bosch", "TS745T", 5);
+            //bulasikMakinesi.UretimNo = "TRY73226";
 
-            Buzdolabi buzdolabi = new Buzdolabi("Beko", "BB8966T", 530);
+            //bulasikMakinesi.Calistir();
+            ////bulasikMakinesi.ProgramSayisi = 6;
+            //Console.WriteLine($"{bulasikMakinesi.Marka} {bulasikMakinesi.Model} {bulasikMakinesi.ProgramSayisi} {bulasikMakinesi.BarkodNo} {bulasikMakinesi.UretimNo}");
 
-            List<CamasirMakinesi> camasirMakinesis = new List<CamasirMakinesi>();
-            camasirMakinesis.Add(camasirMakinesi);
-            //camasirMakinesis.Add(bulasikMakinesi);
+            //Buzdolabi buzdolabi = new Buzdolabi("Beko", "BB8966T", 530);
 
-            List<BeyazEsya> beyazEsyas = new List<BeyazEsya>();
-            beyazEsyas.Add(camasirMakinesi);
-            beyazEsyas.Add(bulasikMakinesi);
-            beyazEsyas.Add(buzdolabi);
+            //List<CamasirMakinesi> camasirMakinesis = new List<CamasirMakinesi>();
+            //camasirMakinesis.Add(camasirMakinesi);
+            ////camasirMakinesis.Add(bulasikMakinesi);
+
+            //List<BeyazEsya> beyazEsyas = new List<BeyazEsya>();
+            //beyazEsyas.Add(camasirMakinesi);
+            //beyazEsyas.Add(bulasikMakinesi);
+            //beyazEsyas.Add(buzdolabi);
 
             //ArrayList arrayList = new ArrayList();
             //arrayList.Add(camasirMakinesi);
             //arrayList.Add(bulasikMakinesi);
             //arrayList.Add("str");
+
+            #endregion
+
+            #region Overriding
+
+            Aslan aslan = new Aslan(true);
+            //aslan.YasamAlani = "Su";
+            Aslan disiAslan = new Aslan(false);
+
+            Kartal kartal = new Kartal(1500, "sivri");
+            Kartal disiKartal = new Kartal(1000, "oval");
+
+            Yunus yunus = new Yunus(2, true);
+            Yunus disiYunus = new Yunus(3, false);
+
+            List<Hayvan> hayvanlar = new List<Hayvan>()
+            {
+                kartal,
+                disiKartal,
+                yunus,
+                disiYunus
+            };
+            hayvanlar.Add(aslan);
+            hayvanlar.Add(disiAslan);
+
+
+            //foreach (var item in hayvanlar)
+            //{
+            //   if(item is Aslan castAslan)
+            //    {
+            //        //var a = (Aslan)item;
+            //        //string result = "Evet";
+            //        //if (!castAslan.YeleliMi)
+            //        //{
+            //        //    result = "Hayır";
+            //        //}
+            //        //Console.WriteLine("Yeleli aslan mi ? " + result);
+            //        Console.WriteLine($"Yeleli aslan mi ? = {(castAslan.YeleliMi == true ? "Evet" : "Hayır")} Yaşam alanı = {castAslan.YasamAlani}"); //Ternary if
+            //        Console.WriteLine(castAslan.ToString());
+            //    }
+            //   else if(item is Kartal castKartal)
+            //    {
+            //        //Console.WriteLine($"Kanat genişliği = {castKartal.KanatGenisligi} Gaga Tipi = {castKartal.GagaTipi} Yaşam alanı = {castKartal.YasamAlani}");
+            //        Console.WriteLine(castKartal.ToString());
+            //    }
+            //   else if(item is Yunus castYunus)
+            //    {
+            //        Console.WriteLine($"Yüzgeç sayısı = {castYunus.YuzgecSayisi} Kafa deliği var mı ? = {(castYunus.KafaDeligiVarmi == true ? "Evet" : "Hayır")} Yaşam alanı = {castYunus.YasamAlani}");
+            //    }
+
+            //    item.SesCikar();
+            //}
+
+            foreach (var item in hayvanlar)
+            {
+                Console.WriteLine(item.ToString());
+                item.SesCikar();
+            }
 
             #endregion
         }
