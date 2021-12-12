@@ -136,5 +136,94 @@ select * from Products order by ProductName desc ,UnitPrice desc
 --------------------- UYGULAMA ---------------
 ---- Özel bir metod kullanmadan Products tablosu içerisinde ki 
 --en büyük fiyat değerini getiren sql komutunu yazınız.
+select top 3 * from Products p order by p.UnitPrice desc
+select top 1 p.UnitPrice from Products p order by p.UnitPrice desc
+select top 1 * from Products p order by p.UnitPrice desc
+
+------------------- MAX -------------------
+select MAX(p.UnitPrice) as MaxUnitPrice from Products p
+
 ---- Özel bir metod kullanmadan Products tablosu içerisinde ki 
 --en küçük fiyat değerini getiren sql komutunu yazınız.
+select top 1 * from Products p order by p.UnitPrice asc
+
+------------------- MIN --------------------
+select MIN(p.UnitPrice) as MinUnitPrice from Products p
+
+------------------- SUM --------------------
+
+select sum(p.UnitPrice) as SumOfUnitPrice
+from Products p
+
+go
+select sum(p.UnitPrice*p.UnitsInStock) as SumOfUnitPrice
+from Products p
+
+-------------------------- UYGULAMA -----------------------
+--- Products tablosunda ki ürünlerin ortalama birim fiyatı bilgisi ?
+select sum(p.UnitPrice) / count(*) as OrtalamaBirimFiyat 
+from Products as p
+go
+select sum(p.UnitPrice*p.UnitsInStock) / count(*) as OrtalamaBirimFiyat 
+from Products as p
+
+-------------------------- AVG ----------------------------
+select AVG(p.UnitPrice) as OrtalamaBirimFiyat
+from Products as p
+
+-------------------------- KURAL --------------------------
+---- Order by daima sonda yer almalıdır.
+select * 
+from Products p
+where p.CategoryID = 1
+order by p.UnitPrice desc
+
+-------------------------- GROUP BY ------------------------
+----- CategoryID si 3 olan kaç tane ürün vardır ?
+select '5' as CategoryId ,count(*) as ToplamUrun 
+from Products p where p.CategoryID = 5
+go
+---- Her kategoriden kaç adet ürün vardır.
+select p.CategoryID,count(*) as UrunSayisi 
+from Products p
+group by p.CategoryID
+
+---- Her supplierdan kaç adet ürün vardır
+select p.SupplierID,p.CategoryID,count(*) as UrunSayisi 
+from Products p
+group by p.SupplierID,p.CategoryID
+
+------------------ UYGULAMA ------------------------
+----- Her kategoride ki toplam ürün birim fiyat bilgisi ?
+select p.CategoryID,sum(p.UnitPrice) as ToplamBirimFiyat 
+from Products p
+group by p.CategoryID
+----- Her kategoride ki ortalama ürün birim fiyat bilgisi ?
+select p.CategoryID,avg(p.UnitPrice) as OrtalamaBirimFiyat 
+from Products p
+group by p.CategoryID
+
+select p.CategoryID,sum(p.UnitPrice) / count(*) as OrtalamaBirimFiyat 
+from Products p
+group by p.CategoryID
+
+-------------------- Her siparişin toplam tutarı ---------
+select o.OrderID, sum(o.UnitPrice*o.Quantity*(1-o.Discount)) as Tutar
+from [Order Details] o
+group by o.OrderID
+
+-------------------- Her üründen toplam yapılan alışveriş miktarı -----
+select o.ProductID, sum(o.Quantity) as ToplamMiktar
+from [Order Details] o
+group by o.ProductID
+
+---------------------- Her siparişte kaç tane detay var ?
+select o.OrderID,count(*) as DetaySayi
+from [Order Details] o
+group by o.OrderID
+
+
+------------------------ JOIN -----------------------------
+--- Inner Join
+--- Left Join
+--- Right Join
