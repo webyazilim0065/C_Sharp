@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Ado.Net_CSharp_0065.Models
 {
-    public class Products
+    public class Products : Entity
     {
-        public int Id { get; set; }
         public string ProductName { get; set; }
         public int? SupplierId { get; set; }
         public int? CategoryId { get; set; }
